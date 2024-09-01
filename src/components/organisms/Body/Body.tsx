@@ -1,8 +1,17 @@
 import React from "react";
 import styles from "./Body.module.css";
 
-const Main: React.FC = () => {
-  return <div className={styles.body}></div>;
+type BodyProps = {
+  attributes?: React.ButtonHTMLAttributes<HTMLBodyElement>;
+  children: React.ReactNode;
 };
 
-export default Main;
+const Body: React.FC<BodyProps> = ({ attributes, children }) => {
+  return (
+    <main className={styles.body} {...attributes} data-relation="centralized">
+      {children}
+    </main>
+  );
+};
+
+export default Body;

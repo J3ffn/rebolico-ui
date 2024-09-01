@@ -1,8 +1,10 @@
 {
   "name": "rebolico-ui",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "icon": "./src/assets/images/Logo.svg",
+  "author": "Jefferson Mangueira Izaquiel",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

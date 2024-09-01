@@ -11,12 +11,13 @@
     "paths": {
       "react": ["./node_modules/preact/compat/"],
       "react-dom": ["./node_modules/preact/compat/"],
+      "assets:images/*": ["src/assets/images/*"],
       "components:atoms/*": ["src/components/atoms/*"],
       "components:molecules/*": ["src/components/molecules/*"],
       "components:organisms/*": ["src/components/organisms/*"],
       "components:pages/*": ["src/components/pages/*"],
       "components:templates/*": ["src/components/templates/*"],
-      "assets:images/*": ["src/assets/images/*"]
+      "utils:mocks/*": ["src/utils/mocks/*"]
     },
 
     /* Bundler mode */

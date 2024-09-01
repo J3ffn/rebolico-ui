@@ -1,7 +1,7 @@
 import styles from "./Login.module.css";
 
 import Form from "components:molecules/Form/Form";
-import Main from "components:templates/Main/Main";
+import PageTemplate from "components:templates/PageTemplate/PageTemplate";
 import { Link } from "react-router-dom";
 
 const http = "http://localhost:8080;";
@@ -18,7 +18,7 @@ const Login = () => {
   }
 
   return (
-    <Main>
+    <PageTemplate>
       <div className={styles.loginContainer}>
         <div className={styles.loginContent}>
           <h2 className={styles.title}>LOGIN</h2>
@@ -65,7 +65,7 @@ const Login = () => {
           </Link>
         </div>
       </div>
-    </Main>
+    </PageTemplate>
   );
 };
 

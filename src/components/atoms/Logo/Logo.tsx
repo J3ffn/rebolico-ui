@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Logo.module.css";
 import logoImage from "assets:images/Logo.svg";
-import logoText from "assets:images/ImageText.png";
+import logoText from "assets:images/LogoText.png";
 
 const Logo: React.FC = () => {
   return (

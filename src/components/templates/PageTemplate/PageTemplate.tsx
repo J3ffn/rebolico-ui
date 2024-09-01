@@ -1,17 +1,19 @@
 import Header from "components:organisms/Header/Header";
 import React from "react";
-import styles from "./Main.module.css";
+import Body from "components:organisms/Body/Body";
+
+import styles from "./PageTemplate.module.css";
 
 type MainTemplateProps = React.PropsWithChildren;
 
-const Main: React.FC<MainTemplateProps> = ({ children }) => {
+const PageTemplate: React.FC<MainTemplateProps> = ({ children }) => {
   return (
-    <div className={styles.mainTemplate}>
+    <Body>
       <Header />
       <main className={styles.mainContent}>{children}</main>
       {/* <Footer /> */}
-    </div>
+    </Body>
   );
 };
 
-export default Main;
+export default PageTemplate;
