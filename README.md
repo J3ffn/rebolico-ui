@@ -1,8 +1,7 @@
 <div align="center">
-
-![LOGO REBOLIÇO](./src/assets/images/Logo.svg)
-![LOGO REBOLIÇO](./src/assets/images/ImageText.png)
-
+   <img src="./src/assets/images/Logo.svg" width="220" height="120"/>
+   <br />
+   <img src="./src/assets/images/LogoText.png" height="100"/>
 </div>
 
 # Rebuliço
