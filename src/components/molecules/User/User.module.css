@@ -1,0 +1,15 @@
+.userIcon {
+  display: flex;
+  cursor: pointer;
+}
+
+.userIcon,
+.userImage {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+.userImage {
+  object-fit: fill;
+}

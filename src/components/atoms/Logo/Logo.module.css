@@ -1,0 +1,20 @@
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 40px;
+  height: auto;
+}
+
+.logoText {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 8px;
+  color: transparent;
+  -webkit-text-stroke: 1px #ff5722;
+  user-select: none;
+}
