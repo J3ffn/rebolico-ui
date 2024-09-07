@@ -1,11 +1,3 @@
 .principalNoticesContainer {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  border-radius: 42px;
-}
-
-.segundaryNotices {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  border-radius: 20px;
 }

@@ -1,0 +1,8 @@
+.optionCategoryContainer {
+  display: flex;
+  height: max-content;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  padding: 8px 13px;
+}

@@ -9,12 +9,12 @@ export const PrincipalNotice = {
 };
 
 export const NoticesImages: {
-  attributes: React.ImgHTMLAttributes<HTMLImageElement> & { key: string };
+  attributes: React.ImgHTMLAttributes<HTMLImageElement>;
   text: string;
 }[] = [
   {
     attributes: {
-      key: "principal-1",
+      id: "principal-1",
       src: principalNoticeImage,
       alt: "Imagem principal",
     },
@@ -22,7 +22,7 @@ export const NoticesImages: {
   },
   {
     attributes: {
-      key: "secundary-1",
+      id: "secundary-1",
       src: secundaryNoticeImage,
       alt: "Imagem secundária",
     },
@@ -30,7 +30,7 @@ export const NoticesImages: {
   },
   {
     attributes: {
-      key: "tertiary-1",
+      id: "tertiary-1",
       src: tertiaryNoticeImage,
       alt: "Imagem Terciária",
     },

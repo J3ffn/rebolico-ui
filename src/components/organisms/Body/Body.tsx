@@ -8,7 +8,7 @@ type BodyProps = {
 
 const Body: React.FC<BodyProps> = ({ attributes, children }) => {
   return (
-    <main className={styles.body} {...attributes} data-relation="centralized">
+    <main className={styles.body} {...attributes}>
       {children}
     </main>
   );

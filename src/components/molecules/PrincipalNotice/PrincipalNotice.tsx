@@ -1,6 +1,7 @@
 import React from "react";
 
 import styles from "./PrincipalNotice.module.css";
+import { Link } from "react-router-dom";
 
 type PrincipalNoticeProps = {
   imageAttributes: React.ImgHTMLAttributes<HTMLImageElement>;
@@ -12,11 +13,13 @@ const PrincipalNotice: React.FC<PrincipalNoticeProps> = ({
   imageText,
 }) => {
   return (
-    <div className={styles.principalNoticeContainer}>
-      <img {...imageAttributes} className={styles.image} />
-      <div className={styles.gradientOverlay}></div>
-      <h2 className={styles.imageText}>{imageText}</h2>
-    </div>
+    <Link to={`/notice/${imageAttributes.id}`}>
+      <div className={styles.principalNoticeContainer}>
+        <img {...imageAttributes} className={styles.image} />
+        <div className={styles.activeGradientOverlay}></div>
+        <h1 className={styles.imageText}>{imageText}</h1>
+      </div>
+    </Link>
   );
 };
 
