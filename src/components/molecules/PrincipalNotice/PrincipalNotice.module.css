@@ -1,10 +1,11 @@
 .principalNoticeContainer {
   position: relative;
-  height: auto;
+  margin: 20px 0;
+  min-height: auto;
 }
 
 .principalNoticeContainer > * {
-  border-radius: 19px;
+  border-radius: 10px;
 }
 
 .image {
@@ -41,3 +42,9 @@
   max-width: 30ch;
   user-select: none;
 }
+
+/* @media (max-width: 610px) {
+  .principalNoticeContainer {
+    display: none;
+  }
+} */

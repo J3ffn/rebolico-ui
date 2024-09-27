@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Input.module.css";
-import InputContext from "src/hooks/context/input/Input.context";
+import InputContext from "src/context/input/Input.context";
 
 type InputProps = {
   label: string;
@@ -8,7 +8,7 @@ type InputProps = {
 };
 
 const Input: React.FC<InputProps> = (props) => {
-  var { value, setValue } = InputContext<string>("");
+  const { value, setValue } = InputContext<string>("");
 
   function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
     const value: string = event.target.value;

@@ -11,15 +11,15 @@ const Category: React.FC<{
 }> = ({ category, subCategories, color, isActive }) => {
   return (
     <div className={styles.optionCategoryContainer}>
-      {subCategories.map((sub, index) => (
+      {subCategories.map((subCategory, index) => (
         <Link
-          key={sub + "-" + index}
+          key={subCategory + "-" + index}
           id={styles.subCategorieId}
           to={`/categories/${subCategories}`}
           style={{ color: color }}
           hidden={!isActive}
         >
-          {sub}
+          {subCategory}
         </Link>
       ))}
       <Link to={`/categories/${category}`} style={{ color: color }}>

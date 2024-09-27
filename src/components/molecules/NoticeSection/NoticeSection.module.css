@@ -1,0 +1,28 @@
+.noticesSectionsContainer {
+  padding: 30px;
+}
+
+.titleSection {
+  display: flex;
+  text-transform: uppercase;
+  gap: 17px;
+  font-family: var(--text-font);
+  max-width: fit-content;
+}
+
+.titleSection:hover {
+  gap: 22px;
+  color: #727272;
+  transition: 0.2s;
+}
+
+.noticesContainer {
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 20px;
+  /* height: 440px; */
+  /* overflow-x: auto; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  margin: 20px 0 0 20px;
+}

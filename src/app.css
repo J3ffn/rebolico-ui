@@ -1,0 +1,12 @@
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.slider {
+  cursor: grab;
+}
+
+.slider:active {
+  cursor: grabbing;
+}

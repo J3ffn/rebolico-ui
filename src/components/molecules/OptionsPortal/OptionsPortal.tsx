@@ -1,12 +1,18 @@
 import React from "react";
 
 import styles from "./OptionsPortal.module.css";
-import { Link } from "react-router-dom";
 import Category from "components:atoms/Category/Category";
 
-type OptionsArgs = {
-  options: string[];
-};
+const mockOptions = [
+  { categorie: "Projeto", subCategorie: ["teste"] },
+  { categorie: "Rebuliço Stories", subCategorie: ["teste 2"] },
+  { categorie: "Publicações", subCategorie: ["Artigos", "TCC"] },
+  { categorie: "Cultura midiática", subCategorie: ["teste 4"] },
+  {
+    categorie: "GeM",
+    subCategorie: ["teste 5", "Teste 6"],
+  },
+];
 
 class Color {
   constructor(public background: string, public color: string = "#FFFFFF") {}
@@ -21,12 +27,12 @@ const colors: Color[] = [
   new Color("#000000"),
 ];
 
-const OptionsPortal: React.FC<OptionsArgs> = ({ options }) => {
+const OptionsPortal: React.FC = () => {
   const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
 
   return (
     <div className={styles.optionsPortalContainer}>
-      {options.map((item, index) => (
+      {mockOptions.map((item, index) => (
         <div
           key={item.categorie + "-" + index}
           className={`${styles.optionCardContainer} ${
