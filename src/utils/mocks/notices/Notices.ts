@@ -19,7 +19,7 @@ export const NoticesImages: {
       src: tempPrincipalNoticeImage,
       alt: "Imagem principal",
     },
-    text: "Ana Goveia Ministra palestra",
+    text: "Garimpo ilegal",
   },
   {
     attributes: {

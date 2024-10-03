@@ -7,7 +7,8 @@ const User = () => {
     //   () => {
     //   fetch("", {}).then();
     // }
-    "https://static.crunchyroll.com/assets/avatar/170x170/1044-jujutsu-kaisen-satoru-gojo.png"
+    // "https://static.crunchyroll.com/assets/avatar/170x170/1044-jujutsu-kaisen-satoru-gojo.png"
+    null
   );
 
   return (

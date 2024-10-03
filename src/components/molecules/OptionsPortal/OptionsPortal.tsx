@@ -4,13 +4,13 @@ import styles from "./OptionsPortal.module.css";
 import Category from "components:atoms/Category/Category";
 
 const mockOptions = [
-  { categorie: "Projeto", subCategorie: ["teste"] },
-  { categorie: "Rebuliço Stories", subCategorie: ["teste 2"] },
+  { categorie: "Projeto", subCategorie: ["MOCK Subcategory"] },
+  { categorie: "Rebuliço Stories", subCategorie: ["MOCK Subcategory"] },
   { categorie: "Publicações", subCategorie: ["Artigos", "TCC"] },
-  { categorie: "Cultura midiática", subCategorie: ["teste 4"] },
+  { categorie: "Cultura midiática", subCategorie: ["MOCK Subcategory"] },
   {
     categorie: "GeM",
-    subCategorie: ["teste 5", "Teste 6"],
+    subCategorie: ["MOCK Subcategory", "MOCK Subcategory"],
   },
 ];
 
