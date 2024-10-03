@@ -1,4 +1,5 @@
 import principalNoticeImage from "./images/PrincipalNotice.png";
+import tempPrincipalNoticeImage from "./images/TempPrincipalNotice.png";
 import secundaryNoticeImage from "./images/SegundaryNotice.png";
 import tertiaryNoticeImage from "./images/TertiaryImage.png";
 
@@ -15,10 +16,10 @@ export const NoticesImages: {
   {
     attributes: {
       id: "principal-1",
-      src: principalNoticeImage,
+      src: tempPrincipalNoticeImage,
       alt: "Imagem principal",
     },
-    text: "Indignação contra o reitor cresce nos corredores do CCTA",
+    text: "Ana Goveia Ministra palestra",
   },
   {
     attributes: {

@@ -5,6 +5,7 @@ import "./app.css";
 
 const App: React.FC = () => {
   return (
+    // <h1>learn react</h1>
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />

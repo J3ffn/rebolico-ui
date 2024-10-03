@@ -10,3 +10,11 @@ a {
 .slider:active {
   cursor: grabbing;
 }
+
+.division-detail {
+  content: " ";
+  width: 70%;
+  height: 1px;
+  background-color: #00101f;
+  z-index: 4;
+}

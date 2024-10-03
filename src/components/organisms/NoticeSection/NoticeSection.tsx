@@ -1,5 +1,5 @@
 import React from "react";
-import { Notice, NoticeProps } from "components:pages/Notice/Notice";
+import { Notice, NoticeProps } from "components:molecules/Notice/Notice";
 import { Link } from "react-router-dom";
 
 import styles from "./NoticeSection.module.css";
@@ -66,6 +66,7 @@ const NoticeSection: React.FC<NoticeSectionProps> = ({
               );
             })}
           </Swiper>
+          <div className="swiper-pagination"></div>
         </div>
       </CentralizedBody>
     </section>

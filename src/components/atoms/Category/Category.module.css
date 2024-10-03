@@ -1,9 +1,20 @@
 .optionCategoryContainer {
   display: flex;
   height: max-content;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   height: max-content;
   padding: 8px 13px;
   gap: 6px;
+}
+
+.subCategorie {
+  /* display: flex; */
+  width: 100%;
+  text-align: center;
+}
+
+.subCategorie:hover {
+  background-color: aqua;
 }

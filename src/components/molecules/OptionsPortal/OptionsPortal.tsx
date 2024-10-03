@@ -31,7 +31,7 @@ const OptionsPortal: React.FC = () => {
   const [activeIndex, setActiveIndex] = React.useState<number | null>(null);
 
   return (
-    <div className={styles.optionsPortalContainer}>
+    <nav className={styles.optionsPortalContainer}>
       {mockOptions.map((item, index) => (
         <div
           key={item.categorie + "-" + index}
@@ -50,7 +50,7 @@ const OptionsPortal: React.FC = () => {
           />
         </div>
       ))}
-    </div>
+    </nav>
   );
 };
 
