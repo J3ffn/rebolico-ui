@@ -3,7 +3,7 @@ import styles from "./User.module.css";
 import defaultImage from "assets:images/User_icon.svg";
 
 const User = () => {
-  const [userImage, setUserImage] = React.useState(
+  const [userImage, _] = React.useState(
     //   () => {
     //   fetch("", {}).then();
     // }

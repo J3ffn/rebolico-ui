@@ -4,15 +4,15 @@ import Form from "components:molecules/Form/Form";
 import PageTemplate from "components:templates/PageTemplate/PageTemplate";
 import { Link } from "react-router-dom";
 
-const http = "http://localhost:8080;";
+// const http = "http://localhost:8080;";
 
 const Login = () => {
   function submit(event: React.MouseEvent<HTMLButtonElement>) {
     event.preventDefault();
-    const content = {
-      username: "jeff@email.com",
-      password: "1234",
-    };
+    // const content = {
+    //   username: "jeff@email.com",
+    //   password: "1234",
+    // };
 
     console.log("CLICOU");
   }

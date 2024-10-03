@@ -1,4 +1,4 @@
-import principalNoticeImage from "./images/PrincipalNotice.png";
+// import principalNoticeImage from "./images/PrincipalNotice.png";
 import tempPrincipalNoticeImage from "./images/TempPrincipalNotice.png";
 import secundaryNoticeImage from "./images/SegundaryNotice.png";
 import tertiaryNoticeImage from "./images/TertiaryImage.png";

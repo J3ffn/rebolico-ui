@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styles from "./Logo.module.css";
-import logoImage from "assets:images/Logo.svg";
+// import logoImage from "assets:images/Logo.svg";
 import defaultLogoImage from "assets:images/User_icon.svg";
 import logoText from "assets:images/LogoText.png";
 

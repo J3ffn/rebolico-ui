@@ -1,5 +1,4 @@
 import NoticeSection from "components:organisms/NoticeSection/NoticeSection";
-import React from "react";
 
 import styles from "./noticesSections.module.css";
 
