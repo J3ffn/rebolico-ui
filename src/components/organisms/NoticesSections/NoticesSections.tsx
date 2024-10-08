@@ -1,6 +1,7 @@
 import NoticeSection from "components:organisms/NoticeSection/NoticeSection";
 
 import styles from "./noticesSections.module.css";
+import StoriesSection from "components:organisms/StoriesSection/StoriesSection";
 
 const urlMocked =
   "https://www.mpba.mp.br/sites/default/files/area/cecom/2024/inicio.jpeg";
@@ -67,6 +68,7 @@ const NoticesSections = () => {
         ]}
         titleInfo={{ text: "Reportagens", href: "Reportagens-section" }}
       />
+      <StoriesSection />
     </div>
   );
 };

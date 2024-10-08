@@ -6,8 +6,9 @@
   "icon": "./src/assets/images/Logo.svg",
   "author": "Jefferson Mangueira Izaquiel",
   "scripts": {
+    "prod": "vite",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build --mode prod",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest --watch"
@@ -15,6 +16,7 @@
   "dependencies": {
     "@types/swiper": "^6.0.0",
     "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1",
